@@ -10,7 +10,9 @@ Primeira API com Flask: criar uma API de chamados de suporte. Nesta etapa, a apl
 
 ## Como instalar as dependências
 
-Pré-requisito: ter o Python instalado. Instale o `uv` e, na pasta do projeto, sincronize as dependências com o `uv.lock`:
+Pré-requisito: ter o Python instalado.
+
+Abra o terminal na pasta do projeto, a que contém os arquivos `app.py`, `pyproject.toml` e `uv.lock`, e rode:
 
 ```bash
 pip install uv
@@ -20,6 +22,8 @@ uv sync --locked
 O `uv sync --locked` cria o ambiente virtual (`.venv`) e instala exatamente as versões registradas no `uv.lock`.
 
 ## Como executar a aplicação
+
+Na mesma pasta (onde está o `app.py`), rode:
 
 ```bash
 uv run flask run
