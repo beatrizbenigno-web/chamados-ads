@@ -39,6 +39,13 @@ flask run
 
 O servidor sobe em `http://127.0.0.1:5000`. Para parar, use `Ctrl + C`.
 
+-
+Para o Codespaces:
+
+```bash
+uv run flask --app app run --host=0.0.0.0 --port=5000
+```
+
 ## Como acessar a rota inicial
 
 Abra `http://127.0.0.1:5000/` no navegador ou use o terminal:
@@ -56,5 +63,5 @@ Resposta esperada:
 - **Corpo:**
 
 ```json
-{"message": "API de chamados em funcionamento"}
+{"mensagem": "API de chamados em funcionamento"}
 ```
