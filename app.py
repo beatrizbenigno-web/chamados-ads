@@ -7,3 +7,5 @@ def inicio():
     return {
         "message": "API de chamados em funcionamento"
     }
+
+#uv run flask run
